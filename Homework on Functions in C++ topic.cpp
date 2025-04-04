@@ -1,12 +1,12 @@
 //Topic 2 - Functions in C++
+#include <iostream>
+#include <cmath>
+
 //Exercise 18. 
 //Develop the function f(x1, y1, x2, y2), which calculates the length of the segment from the coordinates
 //of the vertices(x1, y1) and (x2, y2), and the function min(a, b), which calculates the minimum of
 //the numbers a, b.Using these functions, find two of the three given points on the plane,
 //the distance between which is minimal.
- 
-#include <iostream>
-#include <cmath>
 
 //A function for calculating the distance between two points
 double f(double x1, double y1, double x2, double y2) {
